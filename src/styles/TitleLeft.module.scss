@@ -1,0 +1,45 @@
+
+.containerTitleLeft {
+    width: 30%;
+    height: auto !important;
+    padding: 30px;
+    font-size: 40px ;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing:1px;
+    display:flex;
+    flex-direction: column;
+    border-right: 5px solid white;
+
+
+    .contentTitleLeft {
+        position: sticky;
+        top: 150px;
+
+
+        h1 {
+            margin-bottom: 0;
+            color:#fff;
+            span {
+                line-height: 50px;
+                color:#E21616
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+.containerTitleLeft {
+
+    padding: 20px;
+
+}
+
+}
+
+@media (max-width: 550px) {
+    .containerTitleLeft {
+        display: none;
+    }
+}

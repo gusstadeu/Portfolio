@@ -1,0 +1,40 @@
+
+
+    p {
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .titleRed {
+        color: #BF1616;
+        font-size: 35px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+    .titleWhite {
+        color: #fff;
+        font-size: 35px;
+
+    }
+
+    @media (max-width: 550px) {
+        
+        p {
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .titleRed {
+            color: #BF1616;
+            font-size: 30px;
+            margin-right: 10px;
+            line-height: 50px;
+        }
+        .titleWhite {
+            color: #fff;
+            font-size: 25px;
+
+        }
+        
+    }
+

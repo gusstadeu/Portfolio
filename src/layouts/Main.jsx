@@ -1,0 +1,34 @@
+import styles from '../styles/Main.module.css'
+import stylesSection from '../styles/Section.module.css'
+import React from 'react'
+
+import imageMain from "../images/new/main.svg"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
+export default function Main() {
+    return (
+        <div className={`${styles.containerMain} ${stylesSection.containerSection}`}>
+            <div className={`${styles.containerOne} ${stylesSection.containerOne}`}>
+                <div className={styles.boxText}>
+                    <h3>Olá, eu sou <span>Gustavo Tadeu</span></h3>
+                    <h1>Front-end Developer</h1>
+                    <p>Entusiasta da tecnologia, em busca de oportunidades no mercado de desenvolvimento.</p>
+                    <div className={styles.containerButtons}>
+                        <a href="www.google.com">
+                            <li>Doawload CV</li>
+                        </a>
+                        <AnchorLink offset={150} href="#aboutme">
+                            <li>Sobre mim</li>
+                        </AnchorLink>
+                    </div>
+                </div>
+            </div> 
+            <div className={`${styles.containerTwo} ${stylesSection.containerTwo}`}>
+                <div className={styles.boxImage}>
+                    <img src={imageMain} alt="Homem programando" />
+                </div>
+            </div>
+        </div>
+    )
+}

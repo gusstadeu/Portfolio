@@ -1,0 +1,219 @@
+.containerMain .containerOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.containerMain .containerOne .boxText {
+  width: 90%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.containerMain .containerOne .boxText h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.containerMain .containerOne .boxText h3 span {
+  color: #E21616;
+  font-size: 24px;
+}
+
+.containerMain .containerOne .boxText h1 {
+  line-height: 26px;
+  margin-bottom: 120px;
+  font-size: 3em;
+}
+
+.containerMain .containerOne .boxText p {
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  margin-bottom: 40px;
+}
+
+.containerMain .containerOne .boxText .containerButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.containerMain .containerOne .boxText .containerButtons a {
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.containerMain .containerOne .boxText .containerButtons a li {
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding: 8px 25px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.containerMain .containerOne .boxText .containerButtons a li:hover {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  color: #E21616;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child {
+  margin-right: 13px;
+  background: #981b1b;
+  background: -webkit-gradient(linear, left top, right top, color-stop(11%, #981b1b), color-stop(57%, #bd0e0e), to(#e31111));
+  background: linear-gradient(90deg, #981b1b 11%, #bd0e0e 57%, #e31111 100%);
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child li:hover {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  background-color: #00020A;
+  color: #E21616;
+}
+
+.containerMain .containerTwo {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerMain .containerTwo .boxImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80%;
+  font-size: 30px;
+}
+
+.containerMain .containerTwo .boxImage img {
+  width: 120%;
+}
+
+@media (max-width: 768px) {
+  .containerMain .containerOne .boxText h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .containerMain .containerOne .boxText h3 span {
+    color: #E21616;
+    font-size: 24px;
+  }
+  .containerMain .containerOne .boxText h1 {
+    font-size: 2.2rem;
+  }
+  .containerMain .containerOne .boxText .containerButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 30px;
+  }
+  .containerMain .containerOne .boxText .containerButtons a {
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  .containerMain .containerOne .boxText .containerButtons a li {
+    letter-spacing: 0.5px;
+    color: #fff;
+    padding: 8px 25px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .containerMain .containerOne .boxText .containerButtons a li:hover {
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    color: #E21616;
+  }
+  .containerMain .containerOne .boxText .containerButtons a:first-child {
+    margin-right: 13px;
+    background: #981b1b;
+    background: -webkit-gradient(linear, left top, right top, color-stop(11%, #981b1b), color-stop(57%, #bd0e0e), to(#e31111));
+    background: linear-gradient(90deg, #981b1b 11%, #bd0e0e 57%, #e31111 100%);
+  }
+  .containerMain .containerOne .boxText .containerButtons a:first-child li:hover {
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    background-color: #00020A;
+    color: #E21616;
+  }
+  .containerMain .containerTwo .boxImage img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 435px) {
+  .containerSection {
+    height: 60vh;
+  }
+  .containerMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70vh;
+  }
+  .containerMain .containerOne {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 70%;
+  }
+  .containerMain .containerOne .boxText h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .containerMain .containerOne .boxText h3 span {
+    color: #E21616;
+    font-size: 24px;
+  }
+  .containerMain .containerOne .boxText h1 {
+    font-size: 4rem;
+    line-height: 100%;
+    margin: 10px 0 100px;
+  }
+  .containerMain .containerOne .boxText .containerButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px;
+  }
+  .containerMain .containerTwo {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Main.module.css.map */

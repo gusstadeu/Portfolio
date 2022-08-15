@@ -1,0 +1,277 @@
+.containerSection {
+    height: auto;
+    margin-bottom: 150px; 
+
+
+}
+
+.containerAboutMeOne {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px; 
+    
+    .title {
+        display: none;
+    }
+    
+    .containerBox {
+        height: auto;
+        margin-bottom: 50px;
+        display: flex; 
+
+        .containerImage {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .contentImage {
+                display: none;
+                width: 70%;
+                height: 80%;
+
+            }
+        }
+        .containerText {
+            width: 70%;
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+
+        }
+    }
+
+}
+
+.containerAboutMeTwo {
+    height: 100vh;
+    
+    .containerSkills {
+        height: 50vh;
+        padding: 40px 40px 20px;
+        display: flex;
+        flex-direction: column ;
+
+            li {
+            display: flex;
+            align-items: center;
+            margin-bottom:20px;
+            p {
+                width: 30%;
+                color: #fff;
+                margin: 0;
+                font-size:20px;
+                
+            }
+            .progress {
+                width: 70%;
+                height: auto;
+                
+            }
+        }
+        
+        .containerTitleSkills {
+            display: flex;
+            align-items: flex-end;
+            justify-content:center;
+            height: 100%;
+            font-size: 1rem;
+
+            
+            h1 {
+                color:#E21616;
+                margin: 0;
+                font-size: 2.5em;
+                font-weight: 700;
+                letter-spacing:2px;
+            }
+        }
+    
+        
+    }
+    .containerHobbies {
+        margin: 0 40px ;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        border-top: 3px solid #fff;
+
+
+        .containerTitleHobbies {
+            display: flex;
+            align-items: flex-start;
+            justify-content:center;
+            width: 100%;       
+            margin-top:1.2rem;  
+            margin-bottom:3rem;     
+   
+            h1 {
+                color:#FFBE00;
+                margin: 0;
+                font-size: 2.5em;
+                font-weight: 700;
+                letter-spacing:2px;
+            }
+        }
+
+        .containerBoxHobbies {
+            display: flex;
+            justify-content: space-evenly;
+
+            .boxHobbies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 150px;
+            height: 200px;
+                img {
+                    height: 50%;
+                    width: auto;
+            
+                }
+                p {
+                    font-size:1.5em;
+                    font-weight:700;
+                    color: white;
+                    letter-spacing:1.5px;
+                }
+            }
+            
+            
+        }
+    }
+
+}
+
+.containerProgressBox {
+    background-color:   #FFBE00;
+    .containerProgress {
+        background-color:   #e21616c2;
+        background-image: linear-gradient(45deg,rgba(138, 8, 8, 0.767) 25%,transparent 25%,transparent 50%,rgba(138, 8, 8, 0.767) 50%,rgba(138, 8, 8, 0.767) 75%,transparent 75%,transparent);
+    }
+}
+
+@media (max-width: 768px) {
+    .containerSection {
+        margin-bottom: 150px;
+    
+    }
+}
+
+@media (max-width: 550px) {
+
+    
+    .containerAboutMeOne {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 50px; 
+        
+        .title {
+            display: flex;
+        }
+        .containerBox {
+            height: 30%;
+            display: flex; 
+    
+            .containerImage {
+                display: none;
+            }
+            .containerText {
+                width: 90%;
+                color: white;
+                padding: 20px;
+                font-size: 18px;
+    
+            }
+            
+        }
+    
+    }
+
+    .containerAboutMeTwo {
+        height: auto;
+        
+        .containerSkills {
+            height: 50vh;
+            padding: 40px 40px 20px;
+            display: flex;
+            flex-direction: column ;
+    
+                li {
+                display: flex;
+                align-items: center;
+                margin-bottom:20px;
+                p {
+                    width: 30%;
+                    color: #fff;
+                    margin: 0;
+                    font-size:15px;
+                    
+                }
+                .progress {
+                    width: 70%;
+                    height: auto;
+                    
+                }
+            }
+            
+            .containerTitleSkills {
+                display: flex;
+                align-items: flex-end;
+                justify-content:center;
+                height: 100%;
+                
+                h1 {
+                    color:#E21616;
+                    margin: 0;
+                    font-size: 30px;
+                    font-weight: 700;
+                    letter-spacing:2px;
+                }
+            }
+        
+            
+        }
+        .containerHobbies {
+
+    
+            .containerTitleHobbies {
+              
+                width: 100%;       
+                margin-top:1.2rem;  
+                margin-bottom:3rem;     
+       
+                h1 {
+                    color:#FFBE00;
+                    margin: 0;
+                    font-size: 30px;
+                    font-weight: 700;
+                    letter-spacing:2px;
+                }
+            }
+    
+            .containerBoxHobbies {
+                flex-wrap: wrap;
+    
+                .boxHobbies {
+                width: 120px;
+                height: 120px;
+                margin-bottom: 50px;
+                    img {
+                        height: 70%;                
+                    }
+                    p {
+                        font-size:14px;
+                    }
+                }
+                
+                
+            }
+        }
+    }
+    
+}

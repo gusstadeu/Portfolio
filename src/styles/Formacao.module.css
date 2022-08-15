@@ -1,0 +1,267 @@
+.titleSection {
+  display: none;
+  height: 130px;
+}
+
+.containerTimeline {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerTimeline .containerBoxes {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containerTimeline .containerBoxes .containerlinhagem {
+  width: 25%;
+}
+
+.containerTimeline .containerBoxes .containerlinhagem .linhagem {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle .circle {
+  border-radius: 50%;
+  background-color: #FFBE00;
+  width: 38px;
+  height: 38px;
+}
+
+.containerTimeline .containerBoxes .containerlinhagem .linhagem .line {
+  width: 5px;
+  height: 90%;
+  background-color: #ff0000;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.containerTimeline .containerBoxes .content {
+  width: 75%;
+}
+
+.containerTimeline .containerBoxes .content .title {
+  color: white;
+  border-bottom: 2px solid white;
+  padding: 2px 0;
+  font-size: 25px;
+}
+
+.containerTimeline .containerBoxes .content .title span:first-Child {
+  color: #ff0000;
+}
+
+.containerTimeline .containerBoxes .content .description {
+  color: #797575;
+  padding-top: 4px;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .containerTimeline {
+    width: 100%;
+    height: auto;
+    padding: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTimeline .containerBoxes {
+    width: 95%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem {
+    width: 25%;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem {
+    width: 40%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle {
+    width: 100%;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle .circle {
+    border-radius: 50%;
+    background-color: #FFBE00;
+    width: 38px;
+    height: 38px;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .line {
+    width: 5px;
+    height: 90%;
+    background-color: #ff0000;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  .containerTimeline .containerBoxes .content {
+    width: 75%;
+  }
+  .containerTimeline .containerBoxes .content .title {
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 2px 0;
+    font-size: 25px;
+  }
+  .containerTimeline .containerBoxes .content .title span:first-Child {
+    color: #ff0000;
+  }
+  .containerTimeline .containerBoxes .content .description {
+    color: #797575;
+    padding-top: 4px;
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .titleSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerTimeline {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTimeline .containerBoxes {
+    width: 95%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem {
+    width: 15%;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem {
+    width: 70%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle {
+    width: 100%;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .contentCircle .circle {
+    border-radius: 50%;
+    background-color: #FFBE00;
+    width: 38px;
+    height: 38px;
+  }
+  .containerTimeline .containerBoxes .containerlinhagem .linhagem .line {
+    width: 5px;
+    height: 90%;
+    background-color: #ff0000;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  .containerTimeline .containerBoxes .content {
+    width: 85%;
+  }
+  .containerTimeline .containerBoxes .content .title {
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 2px 0;
+    font-size: 20px;
+  }
+  .containerTimeline .containerBoxes .content .title span:first-Child {
+    color: #ff0000;
+  }
+  .containerTimeline .containerBoxes .content .description {
+    color: #797575;
+    padding-top: 4px;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=Formacao.module.css.map */

@@ -1,0 +1,100 @@
+.containerCarousel {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerCarousel p {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #bebdbd;
+}
+
+.containerCarousel div:last-child {
+  height: 50px;
+  width: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 60px;
+}
+
+.containerCarousel div:last-child img {
+  height: 30px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.containerCarousel div:last-child img:hover {
+  height: 35px;
+  width: 50%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.containerCarousel div:last-child img:first-child {
+  padding-right: 30%;
+}
+
+.containerCarousel div:last-child img:last-child {
+  padding-left: 30%;
+}
+
+button {
+  padding: 5px 40px;
+  background-color: #E21616;
+  border-radius: 3px;
+  width: 30%;
+  margin: 30px auto 150px;
+}
+
+button p {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+button:hover {
+  background-color: #a01212;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .containerCarousel {
+    height: 10vh !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .containerCarousel p {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #bebdbd;
+  }
+  .containerCarousel div:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  .containerCarousel {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Projetos.module.css.map */

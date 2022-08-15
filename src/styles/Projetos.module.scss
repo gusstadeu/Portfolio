@@ -1,0 +1,87 @@
+
+
+.containerCarousel {
+    flex-direction:column ;
+    p {
+        margin-top:30px;
+        font-size:30px;
+        text-align: center;
+        color: rgb(190, 189, 189);
+    }
+    div:last-child {
+        height: 50px;
+        width: 18rem;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding:30px 20px;
+        background-color: white;
+        border-radius: 60px;
+ 
+        img {
+            height: 30px;
+            width: 50%;
+            cursor: pointer;
+
+            &:hover {
+                height: 35px;
+                width: 50%;
+                transition-duration: 0.4s;
+            }
+        } 
+        img:first-child {
+            padding-right:30%;
+        }
+        img:last-child {
+            padding-left:30%;
+        }
+
+    }
+}
+button {
+    padding: 5px 40px; 
+    background-color:#E21616;
+    border-radius: 3px;
+    width: 30%;
+    margin: 30px auto 150px;
+
+
+    p {
+        font-size:20px;
+        font-weight:600;
+        color:white;
+    }
+
+    &:hover {
+        background-color:#a01212;
+        transition-duration: 0.3s;
+
+    }
+} 
+
+@media (max-width: 768px) {
+    .containerCarousel {
+        height: 10vh !important;
+        flex-direction:column ;
+        p {
+            margin-top:30px;
+            font-size:30px;
+            text-align: center;
+            color: rgb(190, 189, 189);
+        }
+        div:first-child {
+            display: flex;
+            width: 60%;
+          
+        }
+
+
+    }   
+
+}
+
+@media (max-width: 550px) {
+    .containerCarousel {
+        display: none;
+    }
+}

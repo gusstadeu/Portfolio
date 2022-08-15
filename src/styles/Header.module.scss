@@ -1,0 +1,171 @@
+.containerHeader {
+    background: rgb(0,2,10);
+    background: linear-gradient(90deg, rgba(0,2,10,1) 30%, rgba(89,6,6,1) 62%, rgba(159,6,6,1) 100%);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;  
+    height: 14vh;
+
+}
+
+.containerOffcanvas, .logoBoxMobile, .logoBoxMobile p {
+    display:none ;
+
+}
+
+
+@media (max-width: 768px) {
+    .containerHeader {
+        display: flex;
+    }
+    .containerOffcanvas, .logoBoxMobile {
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+
+        
+    }
+    
+    .logoBoxMobile {
+        width: 50%;
+        color: #fff;
+    }
+    .containerOffcanvas {
+        justify-content: end;
+        width: 50%;
+    }
+    .button {
+        background-color: transparent;
+        border-color: #fff;
+        border-width: 2px;
+        height: 50px; 
+        width: 50px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+
+        img {
+            width: 100%;
+        }
+
+        &:hover { 
+            border-color: #E21616;
+    
+        }
+    
+        &:active { 
+            border-color: #E21616;
+    
+        }
+    }
+    .Navbar {
+        display:none ;
+
+    }
+    
+    .offcanvasContent {
+        display: flex;
+        padding: 20px ;
+        background-color:black;
+
+
+    }
+
+    .offcanvasBox {
+        display: inline;
+
+    }
+
+    .textReset {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .offcanvasHeader, .offcanvasBody {
+        padding: 20px 0;
+        color: #fff;
+
+    }
+
+    .offcanvasHeader {
+        $spacing: 1.5px;
+
+        width: 30%;
+        border-right: 2px solid #fff;
+        p, h1 {
+            margin: 0;
+        }
+        p {
+            font-size: 20px;
+            letter-spacing:$spacing;
+        }
+        h1 {
+            font-size: 40px;
+            color:#E21616 ;
+            letter-spacing:$spacing - 6px;
+            
+        }
+    }
+    
+    .offcanvasBody {
+        list-style-type: none;
+        padding-left: 40px;
+        width: 50%;
+        height: auto;
+        .link {
+            text-decoration: none;
+            color: #fff;
+        }
+        li {
+            margin-top: 20px;
+            font-size: 18px;
+
+            &:hover {
+                color: #E21616;
+                transition-duration: 0.4s;
+            }
+        }
+
+    }
+    .logoBoxMobile {
+        img { width: 240px; }
+    }
+}
+
+@media (max-width:435px) {
+    .containerHeader {
+        background: rgb(0,2,10);
+        background: linear-gradient(90deg, rgba(0,2,10,1) 56%, rgba(89,6,6,1) 81%, rgba(159,6,6,1) 100%);
+    }
+    .button {
+        height: 40px; 
+        width: 40px; 
+        
+        img {
+            width: 170%;
+        }
+    }
+    .offcanvasHeader {
+        $spacing-s: 1.5px;
+
+        width: 40%;
+
+        p {
+            font-size: 18px;
+            letter-spacing:$spacing-s;
+        }
+        h1 {
+            font-size: 35px;
+            letter-spacing:$spacing-s - 5px;
+        }
+    }
+
+}
+@media (max-width:365px) {
+    .logoBoxMobile {
+        img { width: 200px; }
+    }
+}

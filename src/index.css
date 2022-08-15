@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.animate {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) !important;
+
+}
+
+.textRevealOne {
+  overflow: hidden !important;
+  position: relative !important;
+  opacity: 1 !important;
+
+}
+
+.textRevealOne::after {
+  animation: revealOne 2s 1s ease forwards !important;
+  background-color: white !important;
+  border-left: 20px solid #FFBE00 !important;
+  border-right: 20px solid #FFBE00 !important;
+  content: '' !important; 
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+} 
+ 
+  
+.textRevealOne p {
+  animation: fade 0.5s 2s cubic-bezier(0.85, 0, 0.15, 1) forwards !important;
+}
+
+.textRevealOne h3 {
+  animation: fade 0.5s 1.5s cubic-bezier(0.85, 0, 0.15, 1) forwards !important;
+
+}
+
+
+@keyframes revealOne {
+  from {
+      transform: translateX(-101%) ;
+  }
+  to {
+      transform: translateX(101%) ;
+  }
+}
+
+.textRevealTwo {
+  overflow: hidden !important;
+  position: relative !important;
+  opacity: 1 !important;
+  
+
+}
+
+.textRevealTwo::after {
+  animation: revealTwo 3s 1s ease forwards !important;
+  background-color: white !important;
+  border-left: 20px solid #FFBE00 !important;
+  border-right: 20px solid #FFBE00 !important;
+  content: '' !important; 
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+} 
+ 
+  
+.textRevealTwo p {
+  animation: fade 0.5s 2s cubic-bezier(0.85, 0, 0.15, 1) forwards !important;
+}
+
+.textRevealTwo h3 {
+  animation: fade 0.5s 1.5s cubic-bezier(0.85, 0, 0.15, 1) forwards !important;
+
+}
+
+@keyframes revealTwo {
+  from {
+      transform: translateX(-101%) ;
+  }
+  to {
+      transform: translateX(101%) ;
+  }
+}
+
+@keyframes fade {
+  to {
+      opacity: 1;
+
+  }
+}
+

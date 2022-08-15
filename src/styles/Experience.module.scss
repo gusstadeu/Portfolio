@@ -1,0 +1,257 @@
+
+
+.containerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // background-color:#00020A;
+    background-color:transparent;
+    margin-bottom:0;
+}  
+
+
+// .containerSubtitle {
+//     margin-top: 10px;
+//     width: 500px; 
+//     color:#fff;
+
+// }
+
+// [data-anima] {
+//     opacity: 0 ;
+//     transition: .3s ;
+// }
+
+// [data-anima="left"] {
+//     transform: translate3d(-90px, 0, 0);
+// }
+
+// .animate {
+//     opacity: 0;
+//     transform: translate3d(0, 0, 0);
+//     background-color:red
+// }
+
+
+.containerTitleExpe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    .boxTitleExpe {
+        display: flex;
+        align-items: center;
+        background-color:transparent;
+        height: 40vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div { 
+            height: 10vh;
+            text-align: center;
+        }
+        
+    }
+    
+}
+
+.containerContentExpe {
+    background-color:transparent;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.spaceOne {
+    display: flex;
+    justify-content: space-around; 
+    width: 95%;
+    height: auto;
+    margin: 80px 0;
+    flex-wrap: wrap;
+    
+    .containerBox {
+        width: 270px;
+        height: auto;
+        padding: 25px; 
+        border-radius:2px;
+        background: rgb(152,27,27);
+        background: linear-gradient(90deg, rgba(152,27,27,1) 11%, rgba(189,14,14,1) 57%, rgba(227,17,17,1) 100%);
+        animation: boxShow 3s linear infinite both;
+
+
+        .containerImage {
+            height: 45%;
+            display: flex;
+            align-items: center;
+            svg {
+                width: auto;
+                height: 80%;
+                color: #FFBE00;
+                path {
+                    color: #FFBE00;
+
+                }
+            }
+        }
+        h3 {
+            margin: 0;
+            color: white;
+            letter-spacing: 0.5px;
+            height: 60px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+        p {
+            margin: 0;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
+
+[data-container] {
+    opacity: 0;
+    transition-duration: 3s;
+    animation-delay: 2s;
+
+}
+
+.spaceTwo {
+    width: 80%;
+    padding: 5px 0;
+    height: auto;
+    display:flex;
+    justify-content: center; 
+
+    div {
+        display:flex;
+        align-items: center; 
+        justify-content: center; 
+        height: 50px;
+        border-left: 3px solid white;
+        width: 33%;
+        padding: 0 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #BF1616;
+
+    }
+    div:first-child {
+        border: none;
+
+    }
+
+}
+
+
+ [data-animaDescrip] {
+    opacity: 0;
+    animation-delay: 1s;
+}
+[data-animaTitle] {
+    opacity: 0;
+    animation-delay: 1s;
+
+}
+
+[data-animaTitle] {
+    p {
+        opacity: 0;
+    }
+    h3 {
+        opacity: 0;
+    }
+}
+
+[data-animaDescrip] {
+    p {
+        opacity: 0;
+    }
+    h3 {
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .containerSection {
+        margin-bottom:80px;
+    }  
+
+    .containerTitleExpe {
+        height: 20vh; 
+    }
+    
+    .containerContentExpe {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+    }
+    
+    .spaceOne {
+        justify-content: space-evenly; 
+        width: 95%;
+        height: auto;
+        margin: 40px 0;
+        
+        .containerBox {
+            height: auto;
+            margin-bottom: 40px;
+            
+        }
+    }
+}
+
+@media (max-width: 550px) {
+
+    
+    .spaceOne {
+        width: 95%;
+        margin: 100px 0 50px ;
+        
+        .containerBox {
+            height: auto;
+            margin-bottom: 40px;
+            
+        }
+    }
+    .spaceTwo {
+        width: 90%;
+        padding: 5px 0;
+        flex-wrap: wrap;
+    
+        div {
+            border-left: none;
+            width: 400px;
+            font-size: 22px;
+            line-height: 25px;
+            border-bottom: 3px solid white;
+            margin: 20px 0;
+            padding-bottom: 20px ;
+
+            
+        }
+        div:first-child {
+            border-bottom: 3px solid white;
+
+        }
+        
+    
+    }
+    
+}
+
