@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #E21616;
+}
+
+.container {
+  background: #2E2E2E;
+  border-radius: 40px;
+  padding: 0px 40px;
+  max-width: 900px;
+  height: 100vh;
+}
+
+.container header {
+  height: 30vh;
+  padding-top: 40px;
+}
+
+.container header figure p {
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.container header blockquote cite {
+  color: #d1d1d1;
+}
+
+.container header .content-result {
+  height: 40%;
+  border-bottom: solid 2px #383838;
+  border-top: solid 2px #383838;
+}
+
+.container header #result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e2e1e1;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.container .teclado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 70vh;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  padding-bottom: 40px;
+}
+
+.container .teclado .tecladoRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20%;
+}
+
+.container .teclado .tecladoRow button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 35px;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: transparent;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.container .teclado .tecladoRow button:hover {
+  background-color: #FF3A3A;
+  border: none;
+}
+
+.container .teclado #teclaResult {
+  border-radius: none;
+  border-radius: 10px;
+  background: #FF3A3A;
+  padding: 5px;
+}
+
+.container .teclado #teclaResult p {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+
+.container .teclado #teclaResult:hover {
+  background: #f15151;
+}
+
+.container .teclado .operador {
+  color: #FF3A3A !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    border-radius: 0px;
+  }
+  .container header {
+    height: 40vh;
+  }
+  .container .teclado {
+    height: 60vh;
+  }
+}
+/*# sourceMappingURL=calculadora.module.css.map */

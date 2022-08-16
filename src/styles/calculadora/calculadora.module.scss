@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #E21616;
+}
+
+.container{
+    background: #2E2E2E;
+    border-radius: 40px;
+    padding: 0px 40px;
+    max-width: 900px;
+    height: 100vh;
+
+        header {
+            height: 30vh;
+            padding-top: 40px;
+
+            
+            figure p {
+                color: white;
+                font-size: 50px;
+                line-height: 50px;
+            }
+            
+            blockquote cite{
+                color: rgb(209, 209, 209);
+            }
+            
+            .content-result{
+                height: 40%;
+                border-bottom: solid 2px rgb(56, 56, 56); 
+                border-top: solid 2px rgb(56, 56, 56); 
+                
+            }
+            
+            #result{
+                display: flex;
+                align-items: center;
+                color:rgb(226, 225, 225);
+                font-size: 40px;
+                padding: 5px;
+                // border-left: 2px solid  rgb(56, 56, 56);
+            } 
+        }
+        .teclado {
+            display : flex;
+            flex-direction: column;
+            height: 70vh;
+            align-items: space-between;
+            padding-bottom: 40px ;
+
+            .tecladoRow {
+                display : flex;
+                justify-content: space-evenly; 
+                align-items: center;
+                height: 20%;
+                
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 35px;
+                    padding:5px;
+                    width:70px;
+                    height:70px;
+                    border-radius: 50%;
+                    border: none;
+                    color: white;
+                    background-color: transparent;
+                    transition-duration: 0.3s;
+
+
+
+
+                    &:hover{
+                        background-color: #FF3A3A;
+                        border: none ;
+
+                    }
+                
+                }
+            }
+            #teclaResult{
+                border-radius: none;
+                border-radius: 10px;
+                background: #FF3A3A;
+                padding:5px;
+                
+                p {
+                    font-size: 40px;
+                    line-height: 40px;
+                    margin-bottom: 5px;
+
+                }
+            }
+            
+            #teclaResult:hover{
+                    background: #f15151;
+            }
+            
+            .operador{
+                color: #FF3A3A !important;
+            }
+        }
+    
+}
+
+@media (max-width: 768px) {
+    
+    .container{
+        border-radius: 0px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .container{
+        border-radius: 0px;
+        header {
+            height: 40vh;
+        }
+        .teclado {
+            height: 60vh;
+
+        }
+    }
+    
+}
+
+
+
+

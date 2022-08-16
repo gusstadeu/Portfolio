@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "description":"Salário - Programação",
+        "price": 4500,
+        "tipo":"Entrada"
+    },
+    {
+        "id": 2,
+        "description":"Investimento FII",
+        "price": 5000,
+        "tipo":"Saida"
+    },    
+    {
+        "id": 3,
+        "description":"Empreendimento - programing school",
+        "price": 11000,
+        "tipo":"Entrada"
+    },    
+    {
+        "id": 4,
+        "description":"Empreendimento - Estacionamento",
+        "price": 7000,
+        "tipo":"Entrada"
+    },    
+    {
+        "id": 5,
+        "description":"Despesa - Agua, luz, gas e esgoto",
+        "price": 3500,
+        "tipo":"Saida"
+    },    
+    {
+        "id": 6,
+        "description":"Despesa Casa - IPTU e Mesalidade",
+        "price": 2500,
+        "tipo":"Saida"
+    },
+    {
+        "id": 7,
+        "description":"Despesa Carro - IPVA, Multas, Gasolina",
+        "price": 3500,
+        "tipo":"Saida"
+    }
+]
