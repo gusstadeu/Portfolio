@@ -15,6 +15,8 @@ body {
 .animate {
   opacity: 1 !important;
   transform: translate3d(0, 0, 0) !important;
+  display: block;
+
 
 }
 
@@ -107,3 +109,12 @@ body {
   }
 }
 
+
+.slide {
+  width: 100%;
+  border-radius:20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -3,6 +3,10 @@
   margin-bottom: 150px;
 }
 
+.title {
+  display: none;
+}
+
 .containerAboutMeOne {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,10 +17,6 @@
           flex-direction: column;
   height: auto;
   margin-bottom: 50px;
-}
-
-.containerAboutMeOne .title {
-  display: none;
 }
 
 .containerAboutMeOne .containerBox {
@@ -207,6 +207,11 @@
 }
 
 @media (max-width: 550px) {
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .containerAboutMeOne {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,11 +223,6 @@
     height: auto;
     margin-bottom: 50px;
   }
-  .containerAboutMeOne .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .containerAboutMeOne .containerBox {
     height: 30%;
     display: -webkit-box;
@@ -233,7 +233,7 @@
     display: none;
   }
   .containerAboutMeOne .containerBox .containerText {
-    width: 90%;
+    width: 95%;
     color: white;
     padding: 20px;
     font-size: 18px;
@@ -242,7 +242,7 @@
     height: auto;
   }
   .containerAboutMeTwo .containerSkills {
-    height: 50vh;
+    height: 43vh;
     padding: 40px 40px 20px;
     display: -webkit-box;
     display: -ms-flexbox;

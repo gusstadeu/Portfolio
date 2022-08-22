@@ -1,76 +1,33 @@
 import Title from "../components/section/Title";
 import Subtitle from "../components/section/Subtitle";
 // import { v4 as uuidv4 } from 'uuid';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 // import stylesSection from '../styles/Section.module.css';
-// import styles from '../../src/styles/Projetos.module.css';
+import styles from '../../src/styles/Projetos.module.css';
 
 import React from 'react'
 import { useEffect } from "react";
 
-// import image1 from '../../src/images/pexels1.jpg';
-// import image2 from '../../src/images/pexels2.jpg';
-// import image3 from '../../src/images/pexels3.jpg';
-// import image4 from '../../src/images/pexels4.jpg';
-// import image5 from '../../src/images/pexels5.jpg';
-// import image6 from '../../src/images/pexels6.jpg';
+
+import imageProducaoDesktop from '../../src/images/slide/slide-producao-desktop.gif';
+import imageProducaoTablet from '../../src/images/slide/slide-producao-tablet.gif';
+import imageProducaoMobile from '../../src/images/slide/slide-producao-mobile.gif';
+
+import imageCalculadoraDesktop from '../../src/images/slide/slide-calculadora-desktop.png';
+import imageCalculadoraTablet from '../../src/images/slide/slide-calculadora-tablet.png';
+import imageCalculadoraMobile from '../../src/images/slide/slide-calculadora-mobile.png';
+
+// import image3 from '../../src/images/slide/.png';
+// import image4 from '../../src/images/slide/.png';
+// import image5 from '../../src/images/slide/.png';
+// import image6 from '../../src/images/slide/.png';
 
 
 
 export default function Projetos() {
      
-    
-//     let slides = [
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image1} width='400px' alt="1" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image2} width='400px' alt="2" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image3} width='400px' alt="3" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image4} width='400px' alt="4" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image5} width='400px' alt="5" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image6} width='400px' alt="6" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image1} width='400px' alt="1" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image2} width='400px' alt="2" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image3} width='400px' alt="3" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image4} width='400px' alt="4" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image5} width='400px' alt="5" />
-//             },
-//             {
-//                 key: uuidv4(),
-//                 content: <img src={image6} width='400px' alt="6" />
-//             }
-           
-// ];
 
 useEffect(() => {
     const target = document.querySelectorAll("[data-subtitle]")
@@ -98,19 +55,82 @@ useEffect(() => {
         <>
             <Title title='Projetos'/>
             <Subtitle subtitle="Projetos do meu portfólio como desenvolvedor de sistemas."/>
-            <div style={{ width: "70%", height: "auto", }}>
+        <div id="projetos" className={styles.containerCarousel}>
+                <Carousel className={styles.contentCarousel}
+                    showArrows={true} 
+                    showStatus={false}
+                    showIndicators={false}
+                    infiniteLoop={true}
+                    showThumbs={true}
+                    useKeyboardArrows={true}
+                    autoPlay={false}
+                    stopOnHover={true}
+                    swipeable={true}
+                    dynamicHeight={true}
+                    emulateTouch={true}
+                    autoFocus={false}
+                    
+                    centerMode={true}
+                    centerSlidePercentage={80}
+                    
+                    thumbWidth={161}
+                    selectedItem={1}
+                    interval={4000}
+                    transitionTime={1000}
+                    swipeScrollTolerance={5}
+                    
+                    >
+                    <div className={styles.containerImage}>
+                        <img src={imageProducaoDesktop} alt="slide"  className={styles.imageDesktop}/>
+                        <img src={imageProducaoTablet}  alt="slide" className={styles.imageTablet}/>
+                        <img src={imageProducaoMobile}  alt="slide" className={styles.imageMobile}/>
+                        <div className={styles.containerText}>
+                            <h1>Em Breve</h1>
+                            <p>Projetos em produção. Fique ligado em breve novos projetos</p>
+                        </div>                     
+                    </div>
+                    <div className={styles.containerImage}>
+                        
+                        <img src={imageCalculadoraDesktop}  alt="slide" className={styles.imageDesktop}/>
+                        <img src={imageCalculadoraTablet} alt="slide" className={styles.imageTablet}/>
+                        <img src={imageCalculadoraMobile} alt="slide"  className={styles.imageMobile}/>
 
-                {/* <div id="projetos" data-subtitle className={`${stylesSection.containerSection} ${styles.containerCarousel}`} style={{ width: "90%", height: "300px", margin: "0 auto", transitionDelay: '2s'}}>
-                    <p>EM BREVE</p>
-                    <Carousel slides={slides} 
-                    goToSlide={0}
-                    offsetRadius={2}
-                    showNavigation={true}
-                    />
-                </div> */}
+                        
+                        <div className={styles.emProducao}>
+                            <p>EM PRODUÇÃO</p>
+                        </div>
+                        <div className={styles.containerText}>
+                            <h1>Calculadora</h1>
+                            <p>Em produção, projeto Calculadora</p>
+                        </div>
+                    </div>
+                    <div className={styles.containerImage}>
+                        
+                        <img src={imageProducaoDesktop} alt="slide"  className={styles.imageDesktop}/>
+                        <img src={imageProducaoTablet}  alt="slide" className={styles.imageTablet}/>
+                        <img src={imageProducaoMobile}  alt="slide" className={styles.imageMobile}/>
+                        
+                        <div className={styles.containerText}>
+                            <h1>Em Breve</h1>
+                            <p>Projetos em produção. Fique ligado em breve novos projetos</p>
+                        </div>                    
+                    </div>
+                    <div className={styles.containerImage}>
+                        
+                        <img src={imageProducaoDesktop} alt="slide"  className={styles.imageDesktop}/>
+                        <img src={imageProducaoTablet}  alt="slide" className={styles.imageTablet}/>
+                        <img src={imageProducaoMobile}  alt="slide" className={styles.imageMobile}/>
+                        
+                        <div className={styles.containerText}>
+                            <h1>Em Breve</h1>
+                            <p>Projetos em produção. Fique ligado em breve novos projetos</p>
+                        </div>                    
+                    </div>
+                    
+                </Carousel>
             </div>
-            <button>
-                <p>Em Breve</p>
+            <button style={{opacity: '0'}}>
+                <p>Ver mais</p>
             </button>
         </>
     )

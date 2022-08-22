@@ -1,0 +1,51 @@
+.ButtonTop {
+  position: fixed;
+  bottom: 70px;
+  right: 70px;
+  color: white;
+  list-style-type: none;
+  border-radius: 25px;
+}
+
+.ButtonTop a {
+  background-color: rgba(187, 14, 14, 0.685);
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.ButtonTop a li {
+  color: white;
+  font-size: 20px;
+}
+
+[data-button] {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+@media (max-width: 768px) {
+  .ButtonTop {
+    bottom: 35px !important;
+    right: 35px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .ButtonTop {
+    bottom: 25px !important;
+    right: 25px !important;
+  }
+}
+/*# sourceMappingURL=ButtonTop.module.css.map */

@@ -41,9 +41,9 @@ export default function Header() {
                 <AnchorLink className={styles.link} offset={100} href="#experiencia">
                     <li>Experiência</li>
                 </AnchorLink>
-                {/* <AnchorLink className={styles.link} offset={200} href='#projetos'>
+                <AnchorLink className={styles.link} offset={200} href='#projetos'>
                     <li>Projetos</li>
-                </AnchorLink> */}
+                </AnchorLink>
                 <AnchorLink className={styles.link} offset={250} href="#formacao">
                     <li>Formação</li>
                 </AnchorLink>

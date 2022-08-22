@@ -256,6 +256,14 @@
     width: 70%;
     margin-right: 35px;
   }
+  [data-anima="left"] {
+    -webkit-transform: translate3d(-120px, 0, 0);
+            transform: translate3d(-120px, 0, 0);
+  }
+  [data-anima="right"] {
+    -webkit-transform: translate3d(-120px, 0, 0);
+            transform: translate3d(-120px, 0, 0);
+  }
 }
 
 @media (max-width: 550px) {
@@ -322,6 +330,14 @@
     border-radius: 5px;
     -webkit-animation: boxVibrateTwo 3.5s linear infinite both;
             animation: boxVibrateTwo 3.5s linear infinite both;
+  }
+  [data-anima="left"] {
+    -webkit-transform: translate3d(-120px, 0, 0);
+            transform: translate3d(-120px, 0, 0);
+  }
+  [data-anima="right"] {
+    -webkit-transform: translate3d(-120px, 0, 0);
+            transform: translate3d(-120px, 0, 0);
   }
 }
 /*# sourceMappingURL=Resume.module.css.map */

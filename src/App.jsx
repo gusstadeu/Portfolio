@@ -2,6 +2,7 @@ import './App.css';
 import Body from './layouts/Body';
 import Header from './layouts/Header';
 import React from 'react'
+import ButtonTop from './components/section/ButtonTop';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Body />
+      <ButtonTop/>
     </div>
   );
 }

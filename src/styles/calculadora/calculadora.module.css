@@ -30,7 +30,7 @@ html {
   color: #d1d1d1;
 }
 
-.container header .content-result {
+.container header .contentResult {
   height: 40%;
   border-bottom: solid 2px #383838;
   border-top: solid 2px #383838;
@@ -141,4 +141,4 @@ html {
     height: 60vh;
   }
 }
-/*# sourceMappingURL=calculadora.module.css.map */
+/*# sourceMappingURL=Calculadora.module.css.map */

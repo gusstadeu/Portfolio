@@ -5,15 +5,15 @@
 
 }
 
+.title {
+    display: none;
+}
+
 .containerAboutMeOne {
     display: flex;
     flex-direction: column;
     height: auto;
     margin-bottom: 50px; 
-    
-    .title {
-        display: none;
-    }
     
     .containerBox {
         height: auto;
@@ -163,6 +163,9 @@
 
 @media (max-width: 550px) {
 
+    .title {
+        display: flex ;
+    }
     
     .containerAboutMeOne {
         display: flex;
@@ -170,9 +173,6 @@
         height: auto;
         margin-bottom: 50px; 
         
-        .title {
-            display: flex;
-        }
         .containerBox {
             height: 30%;
             display: flex; 
@@ -181,7 +181,7 @@
                 display: none;
             }
             .containerText {
-                width: 90%;
+                width: 95%;
                 color: white;
                 padding: 20px;
                 font-size: 18px;
@@ -196,7 +196,7 @@
         height: auto;
         
         .containerSkills {
-            height: 50vh;
+            height: 43vh;
             padding: 40px 40px 20px;
             display: flex;
             flex-direction: column ;

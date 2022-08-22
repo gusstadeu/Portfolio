@@ -14,7 +14,7 @@ import responsivoImage from '../images/new/icons8-responsive-96.png'
 
 
 
-export default function SectionCentral(props) {
+export default function SectionCentral() {
 
     
 
@@ -114,9 +114,9 @@ export default function SectionCentral(props) {
                     </div>
                 </div>
                 <div data-container className={styles.spaceTwo}>
-                    <div>Primeira Oportunidade</div>
-                    <div>+10 Projetos pessoais Desenvolvidos</div>
-                    <div>Inglês intermediário</div>
+                    <div data-anima='bottom' style={{transitionDelay: '0.5s'}} >Primeira Oportunidade</div>
+                    <div data-anima='bottom' style={{transitionDelay: '1s'}}>+10 Projetos pessoais Desenvolvidos</div>
+                    <div data-anima='bottom' style={{transitionDelay: '1.5s'}}>Inglês intermediário</div>
                 </div>
             </div>
             
