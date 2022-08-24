@@ -66,7 +66,7 @@ export default function AboutMe() {
                                 <div data-anima='left'className={styles.contentImage}>IMAGE</div>
                             </div>
                             <div data-anima='right' className={styles.containerText}>
-                                <p>Desde sempre apaixonado por Tecnologia, com enorme vontade de aprender e crescer constantemente na area de Programador e futuramente outras areas da tecnologia. Atualmente Cursando 2° semestre em Análise e desenvolvimento de sistemas - FMU</p>
+                                <p>Desde sempre apaixonado por Tecnologia, com enorme vontade de aprender e crescer constantemente na area de Programador e futuramente outras áreas da tecnologia. Atualmente Cursando 2° semestre em Análise e desenvolvimento de sistemas - FMU</p>
                             </div>
                         </div>
                         <div className={styles.containerBox}> {/* Container de baixo AbouteMe */}

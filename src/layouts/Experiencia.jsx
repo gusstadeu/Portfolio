@@ -87,7 +87,7 @@ export default function SectionCentral() {
                             <h3>Web Design</h3>
                         </div>
                         <div data-animaDescrip >
-                            <p>Experiecia intermediaria de design ux/ui</p>
+                            <p>Experiência intermediária de design UX/UI</p>
                         </div>    
                     </div>
                     <div data-container className={styles.containerBox}>
@@ -98,7 +98,7 @@ export default function SectionCentral() {
                             <h3>Dev Frontend</h3>
                         </div>
                         <div data-animaDescrip >
-                            <p>Desenvolvedor de programas para inumeras areas</p>
+                            <p>Desenvolvedor de programas para inúmeras áreas</p>
                         </div>   
                     </div>
                     <div data-container className={styles.containerBox}>

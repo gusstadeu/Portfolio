@@ -18,7 +18,7 @@ export default function Main() {
                     <div className={styles.containerButtons}>
                         {/* <div className={styles.containerButtonsCV}> */}
                             <a href={urlCV} download="CV-gustavotadeu.pdf">
-                                <li>Doawload CV</li>
+                                <li>Download CV</li>
                             </a>
                         {/* </div> */}
                         <AnchorLink offset={150} href="#aboutme">

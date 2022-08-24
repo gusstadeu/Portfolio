@@ -50,14 +50,17 @@
   background-color: transparent;
   text-decoration: none;
   border-radius: 2px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-right: 13px;
 }
 
 .containerMain .containerOne .boxText .containerButtons a li {
   letter-spacing: 0.5px;
   color: #fff;
-  padding: 8px 25px;
+  padding: 13px 35px;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -72,13 +75,87 @@
   background: #981b1b;
   background: -webkit-gradient(linear, left top, right top, color-stop(11%, #981b1b), color-stop(57%, #bd0e0e), to(#e31111));
   background: linear-gradient(90deg, #981b1b 11%, #bd0e0e 57%, #e31111 100%);
+  -webkit-animation: moveInBottom 5s ease-out;
+          animation: moveInBottom 5s ease-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child:link, .containerMain .containerOne .boxText .containerButtons a:first-child:visited {
+  border-radius: 5px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 4px 4px 11px 0px #9e0d0d;
+          box-shadow: 4px 4px 11px 0px #9e0d0d;
+  color: #fff;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 4px 4px 11px 0px #9e0d0d;
+          box-shadow: 4px 4px 11px 0px #9e0d0d;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child::after {
+  background-color: #9e0d0d;
+}
+
+.containerMain .containerOne .boxText .containerButtons a:first-child:hover::after {
+  -webkit-transform: scaleX(1.4) scaleY(1.6);
+          transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 .containerMain .containerOne .boxText .containerButtons a:first-child li:hover {
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  background-color: #00020A;
-  color: #E21616;
+  color: #fff;
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 
 .containerMain .containerTwo {
@@ -151,18 +228,6 @@
             transition-duration: 0.2s;
     color: #E21616;
   }
-  .containerMain .containerOne .boxText .containerButtons a:first-child {
-    margin-right: 13px;
-    background: #981b1b;
-    background: -webkit-gradient(linear, left top, right top, color-stop(11%, #981b1b), color-stop(57%, #bd0e0e), to(#e31111));
-    background: linear-gradient(90deg, #981b1b 11%, #bd0e0e 57%, #e31111 100%);
-  }
-  .containerMain .containerOne .boxText .containerButtons a:first-child li:hover {
-    -webkit-transition-duration: 0.2s;
-            transition-duration: 0.2s;
-    background-color: #00020A;
-    color: #E21616;
-  }
   .containerMain .containerTwo .boxImage img {
     width: 100%;
   }
@@ -211,6 +276,17 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 30px;
+  }
+  .containerMain .containerOne .boxText .containerButtons a li {
+    padding: 14px 24px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .containerMain .containerOne .boxText .containerButtons a li:hover {
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    color: #E21616;
   }
   .containerMain .containerTwo {
     display: none;

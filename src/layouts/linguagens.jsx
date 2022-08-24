@@ -128,7 +128,7 @@ export default function Linguagens() {
                     </div>
                     <div className={styles.containerVersionamento}>
                         <div data-subtitle className={styles.contentTitle}>
-                            <TitleLinguagens titleRed='Versionamento' titleWhite='de codigo'/>
+                            <TitleLinguagens titleRed='Versionamento' titleWhite='de Código'/>
                         </div>
                         <div className={styles.contentLinguagens}>
                             <div data-anima='right' className={styles.linguagensBox}>

@@ -17,7 +17,7 @@ export default function Formacao() {
         {
             titleRed: 'EBAC ',
             titleWhite: '- Desenvolvedor Front-end',
-            description: 'Curso completo de desenvolvedor front-end, Aprofundei em HTML, CSS, JavaScript, SASS, BootStrap, Figma, react.js, git/github, conceitos de design, Responsividade, atualmente estudando Ajax e SEO'
+            description: 'Curso completo de desenvolvedor front-end, Aprofundei em HTML, CSS, JavaScript, SASS, BootStrap, Figma, React.js, Git/Github, conceitos de design, Responsividade, atualmente estudando Ajax e SEO'
         },
         {
             titleRed: 'Rocket',
@@ -26,15 +26,15 @@ export default function Formacao() {
         },{
             titleRed: 'Udemy',
             titleWhite: ' - React.js e Next.js',
-            description: 'Aprofundei meus estudos em react.js, atualmente estudando TypeScript e Next.js '
+            description: 'Aprofundei meus estudos em React.js, atualmente estudando TypeScript e Next.js '
         },{
             titleRed: 'Curso em vídeo',
             titleWhite: ' - Javascript',
-            description: 'Canal no youtube onde estudei sobre javascript'
+            description: 'Canal no youtube onde estudei sobre JavaScript'
         },{
             titleRed: 'Centro Universitário FMU ',
             titleWhite: ' – Análise e desenvolvimento de sistemas',
-            description: 'Cursando 2° semestre – previsão de finalizar 2024'
+            description: 'Cursando 2° semestre – previsão de finalizar em 2024'
         },
     ]
     return (
