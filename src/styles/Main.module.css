@@ -75,8 +75,8 @@
   background: #981b1b;
   background: -webkit-gradient(linear, left top, right top, color-stop(11%, #981b1b), color-stop(57%, #bd0e0e), to(#e31111));
   background: linear-gradient(90deg, #981b1b 11%, #bd0e0e 57%, #e31111 100%);
-  -webkit-animation: moveInBottom 3s ease-out;
-          animation: moveInBottom 3s ease-out;
+  -webkit-animation: moveInBottom 5s ease-out;
+          animation: moveInBottom 5s ease-out;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
