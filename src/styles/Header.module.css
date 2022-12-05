@@ -7,7 +7,7 @@
   top: 0;
   width: 100%;
   z-index: 99;
-  height: 14vh;
+  height: 5em;
 }
 
 .containerOffcanvas, .logoBoxMobile, .logoBoxMobile p {
@@ -74,6 +74,7 @@
     display: flex;
     padding: 20px;
     background-color: black;
+    height: 100%;
   }
   .offcanvasBox {
     display: inline;
@@ -84,7 +85,6 @@
   }
   .offcanvasHeader, .offcanvasBody {
     padding: 20px 0;
-    color: #fff;
   }
   .offcanvasHeader {
     width: 30%;
@@ -108,15 +108,21 @@
     width: 50%;
     height: auto;
   }
-  .offcanvasBody .link {
-    text-decoration: none;
-    color: #fff;
-  }
   .offcanvasBody li {
     margin-top: 20px;
     font-size: 18px;
   }
   .offcanvasBody li:hover {
+    color: #E21616;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+  }
+  .offcanvasBody li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .offcanvasBody li a:active {
     color: #E21616;
     -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;

@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     z-index: 99;  
-    height: 14vh;
+    height: 5em;
 
 }
 
@@ -70,6 +70,7 @@
         display: flex;
         padding: 20px ;
         background-color:black;
+        height: 100%;
 
 
     }
@@ -86,7 +87,6 @@
 
     .offcanvasHeader, .offcanvasBody {
         padding: 20px 0;
-        color: #fff;
 
     }
 
@@ -115,17 +115,25 @@
         padding-left: 40px;
         width: 50%;
         height: auto;
-        .link {
-            text-decoration: none;
-            color: #fff;
-        }
+        
+        
+        
         li {
             margin-top: 20px;
             font-size: 18px;
-
+            
             &:hover {
                 color: #E21616;
                 transition-duration: 0.4s;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                &:active {
+                    color: #E21616;
+                    transition-duration: 0.4s;
+                }
             }
         }
 

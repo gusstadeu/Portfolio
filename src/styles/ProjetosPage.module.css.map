@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,IAAI;CAezB;;AAjBD,AAII,kBAJc,CAId,gBAAgB,CAAC;EACb,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAShB;;AAhBL,AASQ,kBATU,CAId,gBAAgB,CAKZ,eAAe,CAAC;EACZ,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,KAAK;CAE1B",
+    "sources": [
+        "ProjetosPage.module.scss"
+    ],
+    "names": [],
+    "file": "ProjetosPage.module.css"
+}

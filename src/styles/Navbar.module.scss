@@ -5,7 +5,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1024px;
-    height: 14vh;
+    height: 5em;
     padding: 0 40px;
 
 }
@@ -39,13 +39,60 @@
         
         li {
             list-style: none;
-            font-size: 18px ;
+            font-size: 20px ;
             color: #fff;
             padding: 3px; 
             &:hover {
                 color: #E21616;
                 transition-duration: 0.4s;
             }
+        }
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        
+        &:hover {
+            .dropdownContent {
+                display: block;
+            }
+        }
+        
+        .dropbtn {
+            font-size: 20px ;
+            color: #fff;
+            padding: 3px; 
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                color: #E21616;
+                transition-duration: 0.4s;
+            } 
+            
+
+        }
+        .dropdownContent {
+            background-color: rgb(145, 73, 73);
+            display: none;
+            position: absolute;
+            background-color: #00020af5;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                &:hover {
+                    // background-color: gray;
+                }
+            }
+
+
         }
     }
 }
