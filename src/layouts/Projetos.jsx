@@ -129,7 +129,7 @@ useEffect(() => {
                     
                 </Carousel>
             </div>
-            <button style={{opacity: '0'}}>
+            <button href="/projetos">
                 <p>Ver mais</p>
             </button>
         </>
