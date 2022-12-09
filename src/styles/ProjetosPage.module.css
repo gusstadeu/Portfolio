@@ -8,12 +8,162 @@
 .projetosContainer .projetosContent {
   background-color: red;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .projetosContainer .projetosContent .projetosHeader {
   height: 5em;
   width: 100%;
   background-color: white;
+}
+
+.projetosContainer .projetosContent .projetosBanner {
+  background-color: aqua;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projetosContainer .projetosContent .projetosBanner .projetosBannerFirst {
+  width: 60%;
+  height: 300px;
+  background-color: #107070;
+}
+
+.projetosContainer .projetosContent .projetosBanner .projetosBannerSecond {
+  width: 40%;
+  height: 300px;
+  background-color: #0066ff;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem {
+  height: auto;
+  width: 100%;
+  background-color: #868686;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosNavItem {
+  width: 20%;
+  height: 500px;
+  background-color: #12e647;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem {
+  width: 80%;
+  height: 100%;
+  background-color: #ffee00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .projetosOrdenar {
+  width: 100%;
+  height: 50px;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem {
+  background-color: #db1111;
+  border: 1px solid #cf0d0d;
+  color: white;
+  width: 33.33333%;
+  height: 220px;
+  margin-bottom: 0;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemImage {
+  height: 75%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription {
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription .contentItemDescriptionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 55%;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription .contentItemDescriptionOne h3 {
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-size: 20px;
+  line-height: 16px;
+  width: 100%;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription .contentItemDescriptionOne h6 {
+  padding-left: 6px;
+  font-size: 12px;
+  line-height: auto;
+  width: 100%;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription .contentItemDescriptionTwo {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem .contentItemDescription .contentItemDescriptionTwo img {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projetosContainer .projetosContent .projetosContainerItem .projetosCatalogoItem .containerItem:hover {
+  background: linear-gradient(45deg, #d81010 20%, #bd0e0e 50%, #d81010 90%);
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=ProjetosPage.module.css.map */
