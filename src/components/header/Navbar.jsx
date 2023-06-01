@@ -53,11 +53,23 @@ export default function Navbar() {
                         </AnchorLink>
                     </div>
                 </div>
-                <Link to="/projetos">Projetos</Link>
-                <AnchorLink offset={200} href="#aboutme">
-                    <Link to="/">Sobre mim</Link>
-                </AnchorLink>
-                <Link to="/contato">Contato</Link>
+                <div className={styles.dropdown}>
+                    <div className={styles.dropbtn}>
+                        <Link to="/projetos">Projetos</Link>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <div className={styles.dropbtn}>
+                        <AnchorLink offset={200} href="#aboutme">
+                            <Link to="/">Sobre mim</Link>
+                        </AnchorLink>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <div className={styles.dropbtn}>
+                        <Link to="/contato">Contato</Link>
+                    </div>
+                </div>
             </div>
         </div>
     )

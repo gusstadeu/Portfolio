@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 // import stylesSection from '../styles/Section.module.css';
 import styles from '../../src/styles/Projetos.module.css';
-
+ 
 import React from 'react'
 import { useEffect } from "react";
 

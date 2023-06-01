@@ -1,0 +1,28 @@
+.ButtonNav {
+  margin-bottom: 15px;
+  display: flex;
+  width: 90%;
+}
+.ButtonNav:hover div {
+  transition-duration: 0.4s;
+  font-size: 19px;
+}
+.ButtonNav:hover div img {
+  width: 40px;
+  transition-duration: 0.4s;
+}
+.ButtonNav div {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+.ButtonNav div img {
+  border-radius: 50%;
+  width: 30px;
+}
+.ButtonNav div:first-child {
+  padding-left: 0px;
+}/*# sourceMappingURL=buttonNav.module.css.map */
