@@ -8,44 +8,27 @@
 }
 
 .containerAboutMeOne {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: auto;
   margin-bottom: 50px;
 }
-
 .containerAboutMeOne .containerBox {
   height: auto;
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .containerAboutMeOne .containerBox .containerImage {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .containerAboutMeOne .containerBox .containerImage .contentImage {
   display: none;
   width: 70%;
   height: 80%;
 }
-
 .containerAboutMeOne .containerBox .containerText {
   width: 70%;
   color: white;
@@ -56,55 +39,34 @@
 .containerAboutMeTwo {
   height: 100vh;
 }
-
 .containerAboutMeTwo .containerSkills {
   height: 50vh;
   padding: 40px 40px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .containerAboutMeTwo .containerSkills li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 20px;
 }
-
 .containerAboutMeTwo .containerSkills li p {
   width: 30%;
   color: #fff;
   margin: 0;
   font-size: 20px;
 }
-
 .containerAboutMeTwo .containerSkills li .progress {
   width: 70%;
   height: auto;
 }
-
 .containerAboutMeTwo .containerSkills .containerTitleSkills {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
   height: 100%;
   font-size: 1rem;
 }
-
 .containerAboutMeTwo .containerSkills .containerTitleSkills h1 {
   color: #E21616;
   margin: 0;
@@ -112,38 +74,22 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
-
 .containerAboutMeTwo .containerHobbies {
   margin: 0 40px;
   height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   border-top: 3px solid #fff;
 }
-
 .containerAboutMeTwo .containerHobbies .containerTitleHobbies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 100%;
   margin-top: 1.2rem;
   margin-bottom: 3rem;
 }
-
 .containerAboutMeTwo .containerHobbies .containerTitleHobbies h1 {
   color: #FFBE00;
   margin: 0;
@@ -151,39 +97,22 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
-
 .containerAboutMeTwo .containerHobbies .containerBoxHobbies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .containerAboutMeTwo .containerHobbies .containerBoxHobbies .boxHobbies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 150px;
   height: 200px;
 }
-
 .containerAboutMeTwo .containerHobbies .containerBoxHobbies .boxHobbies img {
   height: 50%;
   width: auto;
 }
-
 .containerAboutMeTwo .containerHobbies .containerBoxHobbies .boxHobbies p {
   font-size: 1.5em;
   font-weight: 700;
@@ -194,9 +123,8 @@
 .containerProgressBox {
   background-color: #FFBE00;
 }
-
 .containerProgressBox .containerProgress {
-  background-color: #e21616c2;
+  background-color: rgba(226, 22, 22, 0.7607843137);
   background-image: linear-gradient(45deg, rgba(138, 8, 8, 0.767) 25%, transparent 25%, transparent 50%, rgba(138, 8, 8, 0.767) 50%, rgba(138, 8, 8, 0.767) 75%, transparent 75%, transparent);
 }
 
@@ -205,28 +133,18 @@
     margin-bottom: 150px;
   }
 }
-
 @media (max-width: 550px) {
   .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .containerAboutMeOne {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     height: auto;
     margin-bottom: 50px;
   }
   .containerAboutMeOne .containerBox {
     height: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .containerAboutMeOne .containerBox .containerImage {
@@ -244,21 +162,12 @@
   .containerAboutMeTwo .containerSkills {
     height: 43vh;
     padding: 40px 40px 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .containerAboutMeTwo .containerSkills li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     margin-bottom: 20px;
   }
   .containerAboutMeTwo .containerSkills li p {
@@ -272,15 +181,9 @@
     height: auto;
   }
   .containerAboutMeTwo .containerSkills .containerTitleSkills {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: flex-end;
+    justify-content: center;
     height: 100%;
   }
   .containerAboutMeTwo .containerSkills .containerTitleSkills h1 {
@@ -303,8 +206,7 @@
     letter-spacing: 2px;
   }
   .containerAboutMeTwo .containerHobbies .containerBoxHobbies {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .containerAboutMeTwo .containerHobbies .containerBoxHobbies .boxHobbies {
     width: 120px;
@@ -317,5 +219,4 @@
   .containerAboutMeTwo .containerHobbies .containerBoxHobbies .boxHobbies p {
     font-size: 14px;
   }
-}
-/*# sourceMappingURL=AboutMe.module.css.map */
+}/*# sourceMappingURL=AboutMe.module.css.map */

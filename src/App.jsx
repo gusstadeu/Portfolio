@@ -3,7 +3,7 @@ import Header from './layouts/Header';
 import React from 'react'
 import ButtonTop from './components/section/ButtonTop';
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Body from "./layouts/Body";
 import Projetos from "./pages/ProjetosPage";

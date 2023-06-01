@@ -61,15 +61,17 @@
         
         .dropbtn {
             font-size: 20px ;
-            color: #fff;
             padding: 3px; 
             border: none;
             cursor: pointer;
 
-            &:hover {
-                color: #E21616;
-                transition-duration: 0.4s;
-            } 
+            a {
+                color: #fff ;
+                &:hover {
+                    color: #E21616;
+                    transition-duration: 0.4s;
+                } 
+            }
             
 
         }

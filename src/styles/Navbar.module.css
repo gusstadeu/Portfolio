@@ -1,13 +1,7 @@
 .containerNavbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 1024px;
   height: 5em;
@@ -16,20 +10,14 @@
 
 .logoBox {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .logoBox span {
   font-size: 25px;
   color: #f00;
   letter-spacing: 1px;
 }
-
 .logoBox p {
   color: #fff;
   letter-spacing: 1px;
@@ -39,72 +27,57 @@
 
 .navBox {
   width: 55%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .navBox a {
   text-decoration: none;
 }
-
 .navBox a li {
   list-style: none;
   font-size: 20px;
   color: #fff;
   padding: 3px;
 }
-
 .navBox a li:hover {
   color: #E21616;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
-
 .navBox .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .navBox .dropdown:hover .dropdownContent {
   display: block;
 }
-
 .navBox .dropdown .dropbtn {
   font-size: 20px;
-  color: #fff;
   padding: 3px;
   border: none;
   cursor: pointer;
 }
-
-.navBox .dropdown .dropbtn:hover {
-  color: #E21616;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+.navBox .dropdown .dropbtn a {
+  color: #fff;
 }
-
+.navBox .dropdown .dropbtn a:hover {
+  color: #E21616;
+  transition-duration: 0.4s;
+}
 .navBox .dropdown .dropdownContent {
-  background-color: #914949;
+  background-color: rgb(145, 73, 73);
   display: none;
   position: absolute;
-  background-color: #00020af5;
+  background-color: rgba(0, 2, 10, 0.9607843137);
   min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 .navBox .dropdown .dropdownContent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 @media (max-width: 900px) {
   .logoBox {
     width: 40%;
@@ -119,5 +92,4 @@
   .navBox li {
     font-size: 20px;
   }
-}
-/*# sourceMappingURL=Navbar.module.css.map */
+}/*# sourceMappingURL=Navbar.module.css.map */

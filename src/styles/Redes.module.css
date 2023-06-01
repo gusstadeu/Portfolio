@@ -1,65 +1,40 @@
 .containerRedes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: auto;
   width: 70%;
   margin: 0 auto;
 }
-
 .containerRedes .containerIcon {
   width: 20%;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .containerRedes .containerIcon .iconBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
-
 .containerRedes .containerIcon .iconBox svg {
   background-color: #FEFEFE;
   color: #DE1313;
   width: auto;
   height: 100%;
   padding: 10px;
-  -webkit-box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.05), 5px 0px 8px rgba(0, 0, 0, 0.08), inset 7px 0px 10px rgba(0, 0, 0, 0.2), inset 0px 7px 17px rgba(0, 0, 0, 0.1), inset 0px 5px 17px rgba(0, 0, 0, 0.25), inset 0px 4px 14px rgba(0, 0, 0, 0.05);
-          box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.05), 5px 0px 8px rgba(0, 0, 0, 0.08), inset 7px 0px 10px rgba(0, 0, 0, 0.2), inset 0px 7px 17px rgba(0, 0, 0, 0.1), inset 0px 5px 17px rgba(0, 0, 0, 0.25), inset 0px 4px 14px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.05), 5px 0px 8px rgba(0, 0, 0, 0.08), inset 7px 0px 10px rgba(0, 0, 0, 0.2), inset 0px 7px 17px rgba(0, 0, 0, 0.1), inset 0px 5px 17px rgba(0, 0, 0, 0.25), inset 0px 4px 14px rgba(0, 0, 0, 0.05);
   border-radius: 26.25%;
 }
-
 .containerRedes .ContainerRedesText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: white;
   width: 85%;
   padding-left: 15px;
 }
-
 .containerRedes .ContainerRedesText p {
   font-size: 18px;
   letter-spacing: 1px;
-}
-/*# sourceMappingURL=Redes.module.css.map */
+}/*# sourceMappingURL=Redes.module.css.map */
